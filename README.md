@@ -28,3 +28,13 @@ or:
 ./CUDA_nick.exe
 ```
 
+# Data
+
+The folder '''Data''' has some small matrices that can be used to test the program. 
+You can add the 3 'missing' graphs in the folder for the program to be able to find them from the menu.
+When running the program there is an option to input the relative path to a file (so the above step can be avoided).
+Also you could modify the variable '''file_relative_path''' inside '''main.cu'''.
+Finaly the program can take a command line argument an integer to choose an option from the menu that would show up normaly.
+
+
+
